@@ -1,5 +1,8 @@
 const sendEmail = require("./SendEmail");
 
+// VERIFICATIONLINK=https://took-one.herokuapp.com/api/v1/preregister/
+
+
 const sendVerificationEmail = async ({ email, otp }) => {
   return sendEmail({
     to: email,
